@@ -1,0 +1,37 @@
+people: 50
+mixer_bottle_size_ml: 500
+expected_juice_content_per_lime_ml: 30
+expected_juice_content_per_lemon_ml: 45
+
+drinks:
+  - name: Gin & Tonic
+    interest_percentage: 0.40
+    servings: 2
+    mixers:
+      - name: Tonic Water
+        amount_ml: 150
+
+  - name: Mojito
+    interest_percentage: 0.25
+    servings: 2
+    mixers:
+      - name: Soda Water
+        amount_ml: 60
+      - name: Lime Juice
+        amount_ml: 30
+
+  - name: Whisky Sour
+    interest_percentage: 0.35
+    servings: 2
+    mixers:
+      - name: Lemon Juice
+        amount_ml: 90
+      - name: Soda Water
+        amount_ml: 30
+
+  - name: Campari & Juice
+    interest_percentage: 0.15
+    servings: 2
+    mixers:
+      - name: Orange Juice
+        amount_ml: 120
