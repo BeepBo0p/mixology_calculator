@@ -5,8 +5,8 @@ expected_juice_content_per_lemon_ml: 45
 
 drinks:
   - name: Gin & Tonic
-    interest_percentage: 0.40
-    servings: 2
+    interest_percentage: 0.40 # How many attendees are expected to drink this cocktail
+    servings: 2 # How many servings of this cocktail are expected to be consumed per person who drinks it
     mixers:
       - name: Tonic Water
         amount_ml: 150
